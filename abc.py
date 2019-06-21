@@ -19,8 +19,8 @@ model.fit(x_train, y_train, epochs=3)
 val_loss, val_acc = model.evaluate(x_test, y_test)
 print(val_loss, val_acc)
 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
-plt.imshow(x_train[11], cmap = plt.cm.binary)
-plt.show()
-print(y_train[11])
+#plt.imshow(x_train[11], cmap = plt.cm.binary)
+#plt.show()
+#print(y_train[11])
